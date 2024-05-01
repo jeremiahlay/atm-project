@@ -10,7 +10,6 @@ amt_due = int(input('Enter the amount to withdrawal: '))
 
 balance = balance - amt_due
 
-print(balance)
 
 if amt_due > balance:
     print('insufficient funds')
@@ -19,7 +18,7 @@ else:
     print('please take your cash')
     print('Avalaible Balance:',(balance))
 
-
+print('This is the end of the ATM')
 
 
 
